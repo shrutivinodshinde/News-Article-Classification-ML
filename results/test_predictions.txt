@@ -1,0 +1,33 @@
+NEWS ARTICLE CLASSIFICATION TEST RESULTS
+=======================================
+
+Sentence: Apple released a new artificial intelligence chip for smartphones
+Predicted Category: tech
+
+Sentence: The prime minister addressed parliament regarding the upcoming election
+Predicted Category: politics
+
+Sentence: Manchester United won the football match after scoring two late goals
+Predicted Category: sport
+
+Sentence: The company reported record profits in the stock market this quarter
+Predicted Category: business
+
+Sentence: The latest Hollywood movie broke box office records worldwide
+Predicted Category: entertainment
+
+Sentence: Researchers developed a new software platform for cloud computing
+Predicted Category: tech
+
+Sentence: The government introduced new tax policies for businesses
+Predicted Category: business
+
+Sentence: The tennis champion won the grand slam final after a thrilling match
+Predicted Category: sport
+
+Sentence: A famous actor announced a new film project
+Predicted Category: entertainment
+
+Sentence: Technology companies are investing heavily in artificial intelligence
+Predicted Category: business
+
