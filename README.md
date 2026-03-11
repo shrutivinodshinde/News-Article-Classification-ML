@@ -16,7 +16,55 @@ The project demonstrates a **production-style machine learning workflow**, inclu
 
 All components are implemented using **Python scripts and a modular project structure**, ensuring the pipeline can be executed entirely from the command line.
 
+# Key Features
+
+- End-to-end Machine Learning pipeline for text classification
+- TF-IDF feature engineering with unigram and bigram support
+- Comparison of multiple machine learning models
+- Automatic best-model selection
+- Visualization of dataset and model performance
+- Command-line based pipeline execution
+- Modular and scalable project structure
 ---
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/shrutivinodshinde/News-Article-Classification-ML.git
+```
+
+2. **Navigate to the project directory**
+
+```bash
+cd News-Article-Classification-ML
+```
+
+3. **Create a virtual environment (recommended)**
+
+```bash
+python -m venv venv
+```
+
+4. **Activate the virtual environment**
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Mac/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+5. **Install required dependencies**
+
+```bash
+pip install -r requirements.txt
+```
 
 # Dataset
 
@@ -34,8 +82,15 @@ The dataset contains labeled news articles across five categories:
 | Sport | Football, tennis, athletics |
 | Entertainment | Movies, music, television |
 | Tech | Technology, software, digital innovation |
+### Dataset Setup
 
----
+1 Download dataset from Kaggle  
+2 Extract files  
+3 Place dataset inside:
+
+```
+data/raw/
+```
 
 # Project Architecture
 
@@ -75,7 +130,13 @@ news_classification_project/
 └── main.py
 
 ```
+# Running the Pipeline
 
+Run the complete machine learning pipeline:
+
+```bash
+python main.py
+```
 ---
 
 # Pipeline Workflow
@@ -84,17 +145,14 @@ The following diagram illustrates the complete machine learning workflow used in
 
 ![Machine Learning Pipeline](results/pipeline_workflow.jpeg)
 
-The pipeline follows these stages:
+Pipeline stages:
 
-Raw Dataset  
-→ Data Preprocessing  
-→ Feature Engineering (TF-IDF)  
-→ Model Training  
-→ Model Evaluation  
-→ Visualization  
-→ Model Inference
-
-Each stage of the pipeline is implemented using modular Python scripts, allowing the entire system to be executed sequentially through the main entry point (`main.py`).
+1 Data preprocessing  
+2 Feature engineering  
+3 Model training  
+4 Model evaluation  
+5 Visualization generation  
+6 Model inference 
 
 ---
 
@@ -208,11 +266,15 @@ Shows how many articles belong to each category.
 
 Helps verify dataset balance.
 
+![Class Distribution](results/class_distribution.png)
+
 ---
 
 ### Confusion Matrix
 
 Displays prediction accuracy for each class and highlights misclassifications.
+
+![Confusion Matrix](results/confusion_matrix.png)
 
 ---
 
@@ -222,6 +284,7 @@ Compares the performance of all trained models.
 
 Linear SVM achieved the best accuracy.
 
+![Model Comparison](results/model_comparison.png)
 ---
 
 ### Top Important Words
@@ -287,11 +350,20 @@ results/test_predictions.txt
 
 # Key Learnings
 
-This project demonstrates several important machine learning concepts:
-
 - TF-IDF feature extraction
 - Supervised text classification
 - Model comparison and selection
 - Evaluation using multiple metrics
 - Visualization for model interpretation
 - Building reproducible ML pipelines
+
+---
+# Author
+
+**Shruti Vinod Shinde**
+
+Machine Learning & Data Science Enthusiast
+
+GitHub:  
+https://github.com/shrutivinodshinde 
+---
