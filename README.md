@@ -82,7 +82,7 @@ news_classification_project/
 
 The following diagram illustrates the complete machine learning workflow used in this project.
 
-![Machine Learning Pipeline](results/pipeline_workflow.png)
+![Machine Learning Pipeline](results/pipeline_workflow.jpeg)
 
 The pipeline follows these stages:
 
